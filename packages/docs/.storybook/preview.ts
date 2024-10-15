@@ -15,6 +15,7 @@ const preview: Preview = {
 			theme: themes.dark,
 		},
 	},
+	tags: ["autodocs"],
 };
 
 export default preview;

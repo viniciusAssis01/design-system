@@ -12,6 +12,7 @@
 		"build-storybook": "storybook build"
 	},
 	"dependencies": {
+		"@storybook/addon-a11y": "^8.3.5",
 		"@vns-ignite-ui/react": "*",
 		"@vns-ignite-ui/tokens": "*",
 		"@vns-ignite-ui/ts-config": "*",
