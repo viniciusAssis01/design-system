@@ -19,7 +19,7 @@ jobs:
 
       - run: npm ci
 
-      - run: npm rum build
+      - run: npm run build
 
       - name: Deploy storybook
         working-directory: ./packages/docs
