@@ -33,7 +33,6 @@ export const Button = styled("button", {
 	},
 
 	variants: {
-		// aqui sáo as props de estilização q nosso componente pode receber
 		variant: {
 			primary: {
 				color: "$white",

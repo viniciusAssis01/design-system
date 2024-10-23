@@ -3,7 +3,6 @@ import { Text } from "../Text";
 
 export const MultiStepContainer = styled("div", {});
 
-//veja q estamos estilizando o nosso componente estilizado stitches Text, para criar um novo componente estilizado stitches (Label)
 export const Label = styled(Text, {
 	color: "$gray200",
 
@@ -14,7 +13,6 @@ export const Label = styled(Text, {
 
 export const Steps = styled("div", {
 	display: "grid",
-	//para falar qntas colunas esse grid tem, precisamos trazer tal informação do argumento size passado na execução de tal componente
 	gridTemplateColumns: "repeat(var(--steps-size), 1fr)",
 	gap: "$2",
 	marginTop: "$1",

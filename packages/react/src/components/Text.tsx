@@ -29,9 +29,7 @@ export const Text = styled("p", {
 	},
 });
 
-//exportando as props
 export interface TextProps extends ComponentProps<typeof Text> {
-	//pode (?) receber a propriedade/arg
 	as?: ElementType;
 }
 

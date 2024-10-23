@@ -3,9 +3,8 @@ import { Avatar, AvatarProps } from "@vns-ignite-ui/react";
 
 export default {
 	title: "Data display/Avatar",
-	component: Avatar, //componente q vamos mostrar
+	component: Avatar,
 	args: {
-		//argumentos/props q nosso componente vai receber
 		src: "https://github.com/viniciusAssis01.png",
 		alt: "Vinicius Assis",
 	},
@@ -21,7 +20,6 @@ export default {
 export const Primary: StoryObj<AvatarProps> = {};
 
 export const WithFallback: StoryObj<AvatarProps> = {
-	//para falhar no carregamento da imagem e assim mostrar a fallback (tipo um placeholder)
 	args: {
 		src: undefined,
 	},

@@ -26,7 +26,6 @@ export const Heading = styled("h2", {
 
 //exportando as props
 export interface HeadingProps extends ComponentProps<typeof Heading> {
-	//pode (?) receber a propriedade/arg
 	as?: ElementType;
 }
 

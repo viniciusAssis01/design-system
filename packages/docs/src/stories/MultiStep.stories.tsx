@@ -5,7 +5,6 @@ export default {
 	title: "Form/Multi Step",
 	component: MultiStep,
 	args: {
-		//args é como se fosse os ARGUMENTOS/PROPS do componentes
 		size: 4,
 		currentStep: 1,
 	},

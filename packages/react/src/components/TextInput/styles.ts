@@ -21,7 +21,6 @@ export const TextInputContainer = styled("div", {
 	},
 
 	"&:has(input:focus)": {
-		//aplique a seguinte estilização no container q tiver o elemento filho input, com focus
 		borderColor: "$ignite300",
 	},
 
@@ -31,11 +30,10 @@ export const TextInputContainer = styled("div", {
 	},
 
 	defaultVariants: {
-		size: "md", //assim caso a informação size ñ seja setada, essa vai ser o padrão
+		size: "md",
 	},
 });
 
-//vamos criar uma estilização especifica para o prefixo, pois no texto dentro do input ha um prefixo q ñ é editavel (podemos ver isso lá no Figma)
 export const Prefix = styled("span", {
 	fontFamily: "$default",
 	fontSize: "$sm",

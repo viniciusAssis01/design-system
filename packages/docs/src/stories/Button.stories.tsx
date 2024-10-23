@@ -3,17 +3,15 @@ import { Button, ButtonProps } from "@vns-ignite-ui/react";
 import { ArrowRight } from "phosphor-react";
 
 export default {
-	title: "Button", //titulo da pg desse storie
-	component: Button, //qual componente vamos documentar
+	title: "Button",
+	component: Button,
 	args: {
 		children: "enviar",
 	},
 	argTypes: {
 		variant: {
-			//o botão tem uma propriedade chamada variant.
-			//e as opções possíveis (logo o valor vai ser um array) para essa propriedade variant sao
 			options: ["primary", "secondary", "Tertiary"],
-			//e a forma de controle para o usuário trocar entre essas opções, vai ser um inline-radio
+
 			control: {
 				type: "inline-radio",
 			},
@@ -30,7 +28,7 @@ export default {
 			},
 		},
 		onClick: {
-			action: "click", //nome q vamos dar para nossa ação
+			action: "click",
 		},
 	},
 } as Meta<ButtonProps>;

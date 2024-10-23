@@ -36,7 +36,6 @@ export default {
 export const Primary: StoryObj<TextProps> = {};
 export const CustomTag: StoryObj<TextProps> = {
 	args: {
-		//aqui sao os argumentos/propeidades q nosso componente pode receber
 		children: "Strong text", //filho
 		as: "strong",
 	},

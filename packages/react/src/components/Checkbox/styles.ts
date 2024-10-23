@@ -17,7 +17,6 @@ export const CheckboxContainer = styled(Checkbox.Root, {
 	border: "2px solid $gray900",
 
 	'&[data-state="checked"]': {
-		//se esse nosso componente estilizado tiver uma propr/atributo "data-state" igual a checked, aplique a seguinte estilização:
 		backgroundColor: "$ignite300",
 	},
 
@@ -44,7 +43,6 @@ const slideOut = keyframes({
 	},
 });
 
-//esse componente exibe ou ñ o componente dentro dele, isso se o checkbox estiver selecionado
 export const CheckboxIndicator = styled(Checkbox.Indicator, {
 	color: "$white",
 	width: "$4",

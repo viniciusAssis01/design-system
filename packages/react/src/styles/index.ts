@@ -21,10 +21,9 @@ export const {
 } = createStitches({
 	themeMap: {
 		...defaultThemeMap,
-		//para conseguirmos mapear propriedades do css para algum tipo de token
+
 		height: "space",
 		width: "space",
-		//estamos falando para ele trazer como valores (no intelicence) da propriedade css HEIGHT, os valores do token space.
 	},
 	theme: {
 		colors,
